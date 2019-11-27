@@ -1,0 +1,13 @@
+<text>数据库</text>
+<button bindtap="insert" type="primary" size="default">插入</button>
+<button bindtap="delete" type="primary" size="default">删除</button>
+<button bindtap="update" type="primary" size="default">修改</button>
+<button bindtap="search" type="primary" size="default">搜索</button>
+
+
+<text>云函数</text>
+<button bindtap="sum" type="warn">调用云函数</button>
+<button bindtap="getOpenId" type="warn">获取当前用户OpenID</button>
+
+<text>云存储</text>
+<button bindtap="updateFile" type="primary">上传图片</button>

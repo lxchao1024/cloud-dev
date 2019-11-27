@@ -1,0 +1,8 @@
+button {
+  margin-top: 40rpx;
+}
+
+text {
+  margin-left: 30rpx;
+  font-size: 45rpx;
+}

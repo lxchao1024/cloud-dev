@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-checkbox": "vant-weapp/checkbox",
+    "van-transition": "vant-weapp/transition"
+  },
+  "navigationBarTitleText": "Base"
+}

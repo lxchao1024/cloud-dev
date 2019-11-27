@@ -1,0 +1,19 @@
+<!--miniprogram/pages/base/base.wxml-->
+<van-transition show="{{ show }}" custom-class="block">
+  内容
+</van-transition>
+<van-button loading="loading..." type="danger">按钮</van-button>
+<van-checkbox checked-color="#07c160" value="{{ checked }}" bind:change="onChange">复选框</van-checkbox>
+<van-transition
+  show="{{ show }}"
+  name=""
+  duration="{{ { enter: 300, leave: 1000 } }}"
+  enter-class="van-enter-class"
+  enter-active-class="van-enter-active-class"
+  leave-active-class="van-leave-active-class"
+  leave-to-class="van-leave-to-class"
+>
+<text>lslslsl</text>
+</van-transition>
+
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
