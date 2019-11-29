@@ -1,0 +1,1 @@
+<van-button type="danger" bindtap="onClick">back</van-button>

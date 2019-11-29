@@ -5,11 +5,26 @@ Page({
 
   data: {
     checked: true,
-    anim:{}
+    anim:{},
+    address:''
+  },
+
+  onShow: function() {
+    let pages = getCurrentPages()
+    let currentPage = pages[pages.length - 1]
+
+    if(currentPage.data.addresschose) {
+      console.log('detail values === ' + currentPage.data.addresschose)
+      this.setData({
+        address: currentPage.data.addresschose
+      })
+    } else {
+      console.log("empty")
+    }
   },
 
   onLoad: function(options) {
-    this.countDownTimer()
+    // this.countDownTimer()
   },
 
   countDownTimer: function(timestamp) {
@@ -104,5 +119,10 @@ Page({
     })
   },
 
+  gotoDetail: function(e) {
+    wx.navigateTo({
+      url: '/pages/detail/detail',
+    })
+  },
   
 })
