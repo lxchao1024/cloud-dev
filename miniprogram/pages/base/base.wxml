@@ -17,3 +17,11 @@
 </van-transition>
 
 <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+
+<image src="/images/icon_live.png" style="width:50rpx;height:50rpx; margin:50rpx;" animation="{{anim}}"></image>
+
+<button type="primary" bindtap="onClick">click</button>
+
+<button type="primary" bindtap="reset">reset</button>
+
+<button type="primary">{{mmm}}:{{sss}}</button>
